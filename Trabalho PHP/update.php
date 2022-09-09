@@ -1,14 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Atualizar Produtos</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</head>
+<body>
 <?php
      require('conexao.php');
      $id= $_POST['id'];
      $descricao= $_POST['descricao'];
      $marca= $_POST['marca'];
      $estoque= $_POST['estoque'];
-     $valor=$_POST['valor'];
+     $preco=$_POST['preco'];
 
      mysqli_query($conexao, "UPDATE produtos set 
-          descricao='$descricao', marca='$marca', estoque='$estoque', valor='$valor' where id=$id ");
+          descricao='$descricao', marca='$marca', estoque='$estoque', preco='$preco' where id=$id ");
      
      mysqli_close($conexao);
 ?>
-<a href="select.php" class="btn btn-primary">Produtos</a>s
+<a href="select.php" class="btn btn-primary">Produtos</a>
+
+</body>
+</html>
