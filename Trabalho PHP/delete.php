@@ -9,7 +9,7 @@
    <src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></>    
    <style>
      body{
-          background-image: url(http://www.blogdosupermercado.com.br/wp-content/uploads/2018/03/food-2179178_1280_prateleiras_supermercado-e1520432501121.jpg);
+          background-image: url(http://www.blogdosupermercado.com.br/wp-content/uploads/2018/08/chuttersnap-496714-unsplash.jpg);
           background-size:cover;
      }
      .btn{
